@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+	
+	<div class="mvp-playlist-item" data-type="video" data-path='[{"quality": "SD", "mp4": "media/video/04.mp4"}, {"quality": "1280p", "mp4": "media/video/04.mp4"}, {"quality": "720p", "mp4": "media/video/04.mp4"}]' data-share="https://codecanyon.net/user/Tean/portfolio" data-preview-seek="data/seek/04.vtt" data-thumb="media/video/thumb/04.jpg" data-title="Video title goes here" data-description="Self hosted video."> 
+
+		<div class="mvp-subtitles">
+			<div data-label="English" data-src="data/subtitles/sintel-en.vtt" data-default="1"></div>  
+			<div data-label="German" data-src="data/subtitles/sintel-de.vtt"></div>
+			<div data-label="Spanish" data-src="data/subtitles/sintel-es.vtt"></div>
+		</div>
+
+	</div>
+
+	<div class="mvp-playlist-item" data-type="video_360" data-path='[{"quality": "SD", "mp4": "media/360_video/03.mp4"}]' data-poster="media/360_video/03.jpg" data-share="https://codecanyon.net/user/Tean/portfolio" data-thumb="media/360_video/thumb/03.jpg" data-title="360 video title goes here" data-description="Self hosted 360 video"></div>  
+
+	<div class="mvp-playlist-item" data-type="image" data-path="media/image/03.jpg" data-share="http://www.google.com" data-duration="11" data-thumb="media/image/thumb/03.jpg" data-title="Image title goes here" data-description="This is normal image."></div>
+
+	<div class="mvp-playlist-item" data-type="image_360" data-path="media/360_image/01.jpg" data-thumb="media/360_image/thumb/01.jpg" data-title="Image 360 title goes here" data-description="This is image 360 panorama."></div>
+
+	<div class="mvp-playlist-item" data-type="audio" data-path='[{"quality": "128kbps", "mp3": "media/audio/02.mp3"},{"quality": "320kbps", "mp3": "media/audio/02_320kbps.mp3"}]' data-quality="320kbps" data-quality-mobile="128kbps" data-poster="media/audio/poster/01.jpg" data-thumb="media/audio/thumb/02.jpg" data-title="Audio title goes here" data-description="This is audio example"></div>
+
+	<div class="mvp-playlist-item" data-type="vimeo_single" data-path="84503186" data-title="This is Vimeo video"></div>
+
+	<div class="mvp-playlist-item" data-type="youtube_single" data-path="az_TlQMRaMI" data-title="This is Youtube video"></div>
+
+</data>

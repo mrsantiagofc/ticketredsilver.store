@@ -1,0 +1,1 @@
+NOTE: player HTML is copied from these files into the main wrapper div when _skin.html generator is used.

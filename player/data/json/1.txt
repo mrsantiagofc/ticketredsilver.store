@@ -1,0 +1,95 @@
+[
+    {
+        "type": "video",
+        "path": [
+            {
+                "quality": "SD",
+                "mp4": "media/video/01.mp4"
+            },
+            {
+                "quality": "1280p",
+                "mp4": "media/video/01.mp4"
+            },
+            {
+                "quality": "720p",
+                "mp4": "media/video/01.mp4"
+            }
+        ],
+        "quality": "720p",
+        "thumb": "media/video/thumb/01.jpg",
+        "title": "Video title goes here",
+        "description": "Custom description. Tiam justo commodo in sem dolor iaculis eros nec vivamus dolor.",
+        "download": "media/video/01.mp4",
+        "share": "http://www.google.com",
+        "subtitles": [
+            {
+                "label": "English",
+                "src": "data/subtitles/sintel-en.vtt",
+                "default": true
+            },
+            {
+                "label": "German",
+                "src": "data/subtitles/sintel-de.vtt"
+            },
+            {
+                "label": "Spanish",
+                "src": "data/subtitles/sintel-es.vtt"
+            }
+        ],
+    	"adPre": [
+			{
+				"type": "video",
+				"path": [
+					{
+						"quality": "SD",
+						"mp4": "media/video/ad_01.mp4"
+					}
+				],
+				"skipEnable": "3",
+				"link": "http://www.google.com",
+				"target": "_blank"
+			},
+			{
+                "type": "youtube",
+                "path": "jXSxzMTrKq0",
+                "skipEnable": "4"
+            }
+        ],
+    	"adMid": [
+            {
+                "type": "video",
+                "path": [
+                    {
+                        "quality": "SD",
+                        "mp4": "media/video/ad_02.mp4"
+                    }
+                ],
+                "skipEnable": "3",
+                "begin": "8"
+            },
+            {
+                "type": "youtube",
+                "path": "3XJh9n8K3XU",
+                "skipEnable": "3",
+                "begin": "15"
+            }
+        ],
+    	"adEnd": [
+			{
+				"type": "video",
+				"path": [
+					{
+						"quality": "SD",
+						"mp4": "media/video/ad_03.mp4"
+					}
+				],
+				"skipEnable": "7"
+			},
+			{
+                "type": "youtube",
+                "path": "3XJh9n8K3XU"
+            }
+		]
+    }
+	
+]
